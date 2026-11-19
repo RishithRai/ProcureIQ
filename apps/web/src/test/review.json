@@ -1,0 +1,123 @@
+{
+  "items": [
+    {
+      "opportunity_id": "opp_4fcc1847763f23e1eb055ee2",
+      "opportunity_type": "purchasing_fragmentation",
+      "title": "Purchasing coordination review: PROJECT Mandays Supp",
+      "scope": { "expense_type": "PROJECT Mandays Supp" },
+      "positive_exposure_gbp": "721458382.18",
+      "priority_score": "97.9525744600650518067000",
+      "evidence_summary": "Observed £721,458,382.18 positive payments across 12 months; HHI 1754.94, 59 positive suppliers and 40 positive purchasing areas.",
+      "primary_count": 6497,
+      "contextual_count": 0,
+      "review_basis_key": "a35ca74803e9a7057e9bee385cf7bd87cff9a08df03b98d53cf8bf59aed5bf37",
+      "existing_case": {
+        "review_basis_key": "a35ca74803e9a7057e9bee385cf7bd87cff9a08df03b98d53cf8bf59aed5bf37",
+        "case_id": 1,
+        "case_reference": "PIQ-000001",
+        "status": "INVESTIGATING"
+      },
+      "scoring": {
+        "components": {
+          "materiality": "1",
+          "signal": "0.94150212743043005162",
+          "evidence": "1"
+        },
+        "weighted_points": {
+          "materiality": "45.00",
+          "signal": "32.9525744600650518067000",
+          "evidence": "20.00"
+        },
+        "priority_score": "97.9525744600650518067000",
+        "explanation": "100 × (materiality_weight × materiality + signal_weight × signal + evidence_weight × evidence)",
+        "materiality_formula": "min(positive_exposure_gbp / materiality_reference_gbp, 1)",
+        "materiality_reference_gbp": "100000000",
+        "signal_formula": "(min(positive_suppliers/(2*minimum_suppliers),1) + min(positive_areas/(2*minimum_areas),1) + 1-HHI/10000) / 3",
+        "evidence_formula": "source_month_coverage × valid_row_fraction × positive_active_months/selected_calendar_months × positive_value_mapping_coverage"
+      },
+      "metrics": {
+        "group_value": "PROJECT Mandays Supp",
+        "record_count": 6497,
+        "supplier_count": 59,
+        "positive_supplier_count": 59,
+        "expense_area_count": 40,
+        "positive_gbp": "721458382.18",
+        "credit_gbp": "5012458.96",
+        "net_gbp": "716445923.22",
+        "resolved_positive_gbp": "721458382.18",
+        "unresolved_positive_gbp": "0",
+        "mapping_coverage_pct": "100.0000000000000000",
+        "materiality_pct": "28.8681986213438632",
+        "hhi": "1754.9361770870984514",
+        "top_one_pct": "32.2306097889351159",
+        "top_three_pct": "65.3134111071199475",
+        "suppliers_to_80": 6,
+        "suppliers_to_80_pct": "10.1694915254237288",
+        "unparsed_amounts": 0,
+        "positive_activity_months": 12,
+        "positive_expense_areas": 40,
+        "source_coverage": "1",
+        "top_suppliers": [
+          {
+            "supplier_id": 31,
+            "canonical_name": "capgemini",
+            "positive_gbp": "232530435.95",
+            "share_resolved_pct": "32.2306097889351159"
+          },
+          {
+            "supplier_id": 1,
+            "canonical_name": "accenture (uk) ltd",
+            "positive_gbp": "143810953.11",
+            "share_resolved_pct": "19.9333678368879132"
+          },
+          {
+            "supplier_id": 40,
+            "canonical_name": "cognizant technology solutions",
+            "positive_gbp": "94867690.06",
+            "share_resolved_pct": "13.1494334812969183"
+          }
+        ]
+      },
+      "business_interpretation": "Investigate coordination across purchasing areas; the category label does not establish interchangeable services.",
+      "next_investigation_step": "Compare specifications, frameworks, contract owners and buying requirements across the named areas before considering coordination.",
+      "caveats": [
+        "Broad expense types can contain non-substitutable goods and services; consolidation could increase dependency.",
+        "These are disclosed gross payments, not addressable spend or savings.",
+        "Opportunities can overlap; do not add their exposures or interpret exposure as savings."
+      ],
+      "exposure_definition": "All positive payments in the selected category; credits and all supporting source rows are retained."
+    }
+  ],
+  "total": 1,
+  "offset": 0,
+  "limit": 50,
+  "basis": {
+    "source_fingerprint": "5886525e03a6b21493a7bd70ba3c8ec510ea8f8e01a753cc66850a0406192061",
+    "rule_version": "opportunity_rules_v1",
+    "configuration_identity": "f8f67540ebbdd4b991157df5bb3e6c4b08106bc53feae9b4db67e2a7407a60dc",
+    "filters": {
+      "start_month": null,
+      "end_month": null,
+      "expense_type": null,
+      "expense_area": null,
+      "entity": null,
+      "supplier_id": null
+    }
+  },
+  "basis_token": "953519a271c489d9415fddba1ad2f282b9303f3219894e543ffb5335ee191738",
+  "qualified_count": 112,
+  "exported_count": 34,
+  "deferred_count": 78,
+  "counts_by_type": {
+    "supplier_concentration": 10,
+    "purchasing_fragmentation": 8,
+    "payment_pattern": 10,
+    "data_quality": 6
+  },
+  "qualified_by_type": {
+    "supplier_concentration": 38,
+    "purchasing_fragmentation": 8,
+    "payment_pattern": 60,
+    "data_quality": 6
+  }
+}

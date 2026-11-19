@@ -1,0 +1,193 @@
+{
+  "tables_all_versions": {
+    "source_file": 12,
+    "raw_spend_row": 12973,
+    "spend_line": 12973,
+    "supplier": 456,
+    "supplier_alias": 460,
+    "data_quality_issue": 1761
+  },
+  "mapping_active": {
+    "total_rows": 12973,
+    "resolved_rows": 12973,
+    "unresolved_rows": 0,
+    "original_names": 460,
+    "normalized_suppliers": 456
+  },
+  "aliases_all_versions": {
+    "resolved": 460,
+    "unresolved": 0
+  },
+  "quality_active": {
+    "exact_duplicate_candidate": 73,
+    "repeated_identifier": 1688
+  },
+  "duplicate_candidate_rows": 73,
+  "monthly": [
+    {
+      "reporting_month": "2025-04",
+      "record_count": 1116,
+      "positive_payments_gbp": "217220774.13",
+      "credit_magnitude_gbp": "2263741.14",
+      "net_disclosed_gbp": "214957032.99",
+      "unparsed_amounts": 0,
+      "invalid_rows": 0,
+      "negative_amounts": 14,
+      "zero_amounts": 0,
+      "positive_below_25000": 137,
+      "passed": true
+    },
+    {
+      "reporting_month": "2025-05",
+      "record_count": 946,
+      "positive_payments_gbp": "187871937.71",
+      "credit_magnitude_gbp": "2734879.94",
+      "net_disclosed_gbp": "185137057.77",
+      "unparsed_amounts": 0,
+      "invalid_rows": 0,
+      "negative_amounts": 57,
+      "zero_amounts": 0,
+      "positive_below_25000": 110,
+      "passed": true
+    },
+    {
+      "reporting_month": "2025-06",
+      "record_count": 962,
+      "positive_payments_gbp": "243706737.72",
+      "credit_magnitude_gbp": "1087793.90",
+      "net_disclosed_gbp": "242618943.82",
+      "unparsed_amounts": 0,
+      "invalid_rows": 0,
+      "negative_amounts": 12,
+      "zero_amounts": 0,
+      "positive_below_25000": 114,
+      "passed": true
+    },
+    {
+      "reporting_month": "2025-07",
+      "record_count": 1013,
+      "positive_payments_gbp": "188451137.50",
+      "credit_magnitude_gbp": "2239344.99",
+      "net_disclosed_gbp": "186211792.51",
+      "unparsed_amounts": 0,
+      "invalid_rows": 0,
+      "negative_amounts": 21,
+      "zero_amounts": 0,
+      "positive_below_25000": 107,
+      "passed": true
+    },
+    {
+      "reporting_month": "2025-08",
+      "record_count": 907,
+      "positive_payments_gbp": "157385698.65",
+      "credit_magnitude_gbp": "577649.46",
+      "net_disclosed_gbp": "156808049.19",
+      "unparsed_amounts": 0,
+      "invalid_rows": 0,
+      "negative_amounts": 9,
+      "zero_amounts": 1,
+      "positive_below_25000": 116,
+      "passed": true
+    },
+    {
+      "reporting_month": "2025-09",
+      "record_count": 1057,
+      "positive_payments_gbp": "198514838.22",
+      "credit_magnitude_gbp": "1552338.10",
+      "net_disclosed_gbp": "196962500.12",
+      "unparsed_amounts": 0,
+      "invalid_rows": 0,
+      "negative_amounts": 21,
+      "zero_amounts": 0,
+      "positive_below_25000": 133,
+      "passed": true
+    },
+    {
+      "reporting_month": "2025-10",
+      "record_count": 1038,
+      "positive_payments_gbp": "202023018.71",
+      "credit_magnitude_gbp": "2241452.11",
+      "net_disclosed_gbp": "199781566.60",
+      "unparsed_amounts": 0,
+      "invalid_rows": 0,
+      "negative_amounts": 21,
+      "zero_amounts": 0,
+      "positive_below_25000": 108,
+      "passed": true
+    },
+    {
+      "reporting_month": "2025-11",
+      "record_count": 1015,
+      "positive_payments_gbp": "172072109.00",
+      "credit_magnitude_gbp": "2237833.53",
+      "net_disclosed_gbp": "169834275.47",
+      "unparsed_amounts": 0,
+      "invalid_rows": 0,
+      "negative_amounts": 18,
+      "zero_amounts": 0,
+      "positive_below_25000": 122,
+      "passed": true
+    },
+    {
+      "reporting_month": "2025-12",
+      "record_count": 1197,
+      "positive_payments_gbp": "241421719.34",
+      "credit_magnitude_gbp": "2168448.44",
+      "net_disclosed_gbp": "239253270.90",
+      "unparsed_amounts": 0,
+      "invalid_rows": 0,
+      "negative_amounts": 20,
+      "zero_amounts": 0,
+      "positive_below_25000": 173,
+      "passed": true
+    },
+    {
+      "reporting_month": "2026-01",
+      "record_count": 1022,
+      "positive_payments_gbp": "201247311.09",
+      "credit_magnitude_gbp": "1075997.85",
+      "net_disclosed_gbp": "200171313.24",
+      "unparsed_amounts": 0,
+      "invalid_rows": 0,
+      "negative_amounts": 24,
+      "zero_amounts": 0,
+      "positive_below_25000": 142,
+      "passed": true
+    },
+    {
+      "reporting_month": "2026-02",
+      "record_count": 1117,
+      "positive_payments_gbp": "179685339.33",
+      "credit_magnitude_gbp": "5907443.31",
+      "net_disclosed_gbp": "173777896.02",
+      "unparsed_amounts": 0,
+      "invalid_rows": 0,
+      "negative_amounts": 38,
+      "zero_amounts": 0,
+      "positive_below_25000": 192,
+      "passed": true
+    },
+    {
+      "reporting_month": "2026-03",
+      "record_count": 1583,
+      "positive_payments_gbp": "309545209.08",
+      "credit_magnitude_gbp": "6716045.03",
+      "net_disclosed_gbp": "302829164.05",
+      "unparsed_amounts": 0,
+      "invalid_rows": 0,
+      "negative_amounts": 67,
+      "zero_amounts": 0,
+      "positive_below_25000": 194,
+      "passed": true
+    }
+  ],
+  "totals_active": {
+    "record_count": 12973,
+    "positive_payments_gbp": "2499145830.48",
+    "credit_magnitude_gbp": "30802967.80",
+    "net_disclosed_gbp": "2468342862.68"
+  },
+  "supplier_review_groups": 2,
+  "passed": true,
+  "postgresql_version": "17.11 (Homebrew)"
+}

@@ -1,0 +1,63 @@
+{
+  "items": [
+    {
+      "case_id": 1,
+      "classification": "primary",
+      "ordinal": 1,
+      "raw_row_id": 8,
+      "file_id": 1,
+      "file_sha256": "9a347c44045234bb50fd0d47e06b46282885bebf1999f6c2ebfa6b5cd7ac76a6",
+      "source_record_number": 8,
+      "row_hash": "6e127f924415db1e8dd880cd53d2f400194c1d03c75edbdb960bf14e60638a68",
+      "source_values": {
+        "Date": "01/04/2025",
+        "Amount": "57400",
+        "Entity": "HMRC",
+        "Supplier": "DIGITAL WORKS CONSULTING LTD",
+        "Description": "Project - Contract Mandays (supplier controlled)",
+        "Expense area": "CDIO - Core",
+        "Expense type": "PROJECT Mandays Supp",
+        "Department family": "HMRC",
+        "Supplier Postcode": "N20 0LD",
+        "Transaction number": "5100079391"
+      },
+      "physical_line_start": 9,
+      "physical_line_end": 9,
+      "filename": "HMRC_spending_over_25000_for_April_2025.csv",
+      "reporting_month": "2025-04-01",
+      "source_currently_active": true
+    },
+    {
+      "case_id": 1,
+      "classification": "primary",
+      "ordinal": 2,
+      "raw_row_id": 18,
+      "file_id": 1,
+      "file_sha256": "9a347c44045234bb50fd0d47e06b46282885bebf1999f6c2ebfa6b5cd7ac76a6",
+      "source_record_number": 18,
+      "row_hash": "18356345aa2cf57a6f042014b337a3f8bda261fc5283f9c7174f64515b6836e9",
+      "source_values": {
+        "Date": "02/04/2025",
+        "Amount": "45586.64",
+        "Entity": "HMRC",
+        "Supplier": "EQUAL EXPERTS UK LTD",
+        "Description": "Project - Contract Mandays (supplier controlled)",
+        "Expense area": "Knowledge, Analysis & Intelligence",
+        "Expense type": "PROJECT Mandays Supp",
+        "Department family": "HMRC",
+        "Supplier Postcode": "AL1 5HE",
+        "Transaction number": "5100000109"
+      },
+      "physical_line_start": 19,
+      "physical_line_end": 19,
+      "filename": "HMRC_spending_over_25000_for_April_2025.csv",
+      "reporting_month": "2025-04-01",
+      "source_currently_active": true
+    }
+  ],
+  "total": 6497,
+  "offset": 0,
+  "limit": 2,
+  "classification": "primary",
+  "basis_matches_current_source": true
+}

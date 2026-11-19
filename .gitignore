@@ -1,0 +1,46 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.DS_Store
+data/raw/*
+!data/raw/.gitkeep
+reports/source_rows.jsonl
+*.part
+
+.local/
+
+node_modules/
+*.tsbuildinfo
+
+# Virtual environments
+venv/
+
+# Editor / assistant tooling
+.codex/
+.claude/
+
+# Build output
+.next/
+out/
+
+# Large data and model files (regenerate with the procureiq CLI)
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.db
+*.sqlite
+*.sqlite3
+*.xlsx
+*.jsonl
+# Small illustrative scenario workbooks shown in the README
+!deliverables/*.xlsx

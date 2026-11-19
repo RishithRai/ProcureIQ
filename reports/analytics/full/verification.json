@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "filters": {
+    "start_month": null,
+    "end_month": null,
+    "expense_type": null,
+    "expense_area": null,
+    "entity": null,
+    "supplier_id": null
+  },
+  "record_count": 12973,
+  "positive_gbp": "2499145830.48",
+  "credit_gbp": "30802967.80",
+  "net_gbp": "2468342862.68",
+  "checks": [
+    "independent Decimal line totals",
+    "category/area/entity reconciliation",
+    "supplier ranks and shares",
+    "Pareto crossing",
+    "HHI and top-one/top-three",
+    "unknown mapping denominators",
+    "calendar month trends",
+    "supplier monthly reconciliation"
+  ]
+}

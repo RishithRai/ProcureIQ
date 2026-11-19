@@ -1,0 +1,15 @@
+{
+  "category_min_gbp": "5000000",
+  "min_active_months": 6,
+  "min_mapping": "0.95",
+  "min_source_coverage": "0.90",
+  "payment_min_gbp": "1000000",
+  "history_months": 6,
+  "history_active_months": 4,
+  "quality_min_gbp": "25000",
+  "materiality_reference_gbp": "100000000",
+  "materiality_weight": "0.45",
+  "signal_weight": "0.35",
+  "evidence_weight": "0.20",
+  "max_per_type": 10
+}

@@ -1,0 +1,212 @@
+{
+  "preservation": {
+    "original_investigations": true,
+    "analytical_source": true
+  },
+  "source": {
+    "source_fingerprint": "5886525e03a6b21493a7bd70ba3c8ec510ea8f8e01a753cc66850a0406192061",
+    "overview": [
+      {
+        "group_value": "All",
+        "record_count": 12973,
+        "supplier_count": 456,
+        "positive_supplier_count": 455,
+        "expense_area_count": 69,
+        "positive_gbp": "2499145830.48",
+        "credit_gbp": "30802967.80",
+        "net_gbp": "2468342862.68",
+        "resolved_positive_gbp": "2499145830.48",
+        "unresolved_positive_gbp": "0",
+        "unresolved_credit_gbp": "0",
+        "unresolved_net_gbp": "0",
+        "mapping_coverage_pct": "100.0000000000000000",
+        "unresolved_rows": 0,
+        "unparsed_amounts": 0,
+        "invalid_rows": 0,
+        "materiality_pct": "100.0000000000000000"
+      }
+    ],
+    "mapping_hash": "2888a215bf9c1e57d9882d25a2220f642d853125b5a33f6f466222bdfc172523",
+    "raw_rows_hash": "3ad3fdbc8d67be286e74adfaada98f9a84f244efe1215d9a76f2f0ad5d6cae63",
+    "opportunity_hash": "5a80754547eb72bd734298dc75bfa666b100af337201bf24c2ce4a3240994d3b"
+  },
+  "browser": {
+    "case_id": 37,
+    "quality_count": 1761,
+    "namespace_dedupe": {
+      "normal": 37,
+      "demo": 1
+    },
+    "viewports": [
+      {
+        "size": "desktop",
+        "route": "command",
+        "width": 1440,
+        "document": 1440
+      },
+      {
+        "size": "desktop",
+        "route": "spend",
+        "width": 1440,
+        "document": 1440
+      },
+      {
+        "size": "desktop",
+        "route": "case",
+        "width": 1440,
+        "document": 1440
+      },
+      {
+        "size": "desktop",
+        "route": "reviews",
+        "width": 1440,
+        "document": 1440
+      },
+      {
+        "size": "desktop",
+        "route": "scenarios",
+        "width": 1440,
+        "document": 1440
+      },
+      {
+        "size": "desktop",
+        "route": "optimization",
+        "width": 1440,
+        "document": 1440
+      },
+      {
+        "size": "desktop",
+        "route": "operations",
+        "width": 1440,
+        "document": 1440
+      },
+      {
+        "size": "desktop",
+        "route": "reports",
+        "width": 1440,
+        "document": 1440
+      },
+      {
+        "size": "laptop",
+        "route": "command",
+        "width": 1280,
+        "document": 1280
+      },
+      {
+        "size": "laptop",
+        "route": "spend",
+        "width": 1280,
+        "document": 1280
+      },
+      {
+        "size": "laptop",
+        "route": "case",
+        "width": 1280,
+        "document": 1280
+      },
+      {
+        "size": "laptop",
+        "route": "reviews",
+        "width": 1280,
+        "document": 1280
+      },
+      {
+        "size": "laptop",
+        "route": "scenarios",
+        "width": 1280,
+        "document": 1280
+      },
+      {
+        "size": "laptop",
+        "route": "optimization",
+        "width": 1280,
+        "document": 1280
+      },
+      {
+        "size": "laptop",
+        "route": "operations",
+        "width": 1280,
+        "document": 1280
+      },
+      {
+        "size": "laptop",
+        "route": "reports",
+        "width": 1280,
+        "document": 1280
+      },
+      {
+        "size": "mobile",
+        "route": "command",
+        "width": 390,
+        "document": 390
+      },
+      {
+        "size": "mobile",
+        "route": "spend",
+        "width": 390,
+        "document": 390
+      },
+      {
+        "size": "mobile",
+        "route": "case",
+        "width": 390,
+        "document": 390
+      },
+      {
+        "size": "mobile",
+        "route": "reviews",
+        "width": 390,
+        "document": 390
+      },
+      {
+        "size": "mobile",
+        "route": "scenarios",
+        "width": 390,
+        "document": 390
+      },
+      {
+        "size": "mobile",
+        "route": "optimization",
+        "width": 390,
+        "document": 390
+      },
+      {
+        "size": "mobile",
+        "route": "operations",
+        "width": 390,
+        "document": 390
+      },
+      {
+        "size": "mobile",
+        "route": "reports",
+        "width": 390,
+        "document": 390
+      }
+    ],
+    "errors": []
+  },
+  "financial_and_solver": {
+    "errors": [],
+    "base_net": "1292916.76",
+    "solver_costs": [
+      "1400",
+      "1500"
+    ]
+  },
+  "visual_followup": {
+    "errors": [],
+    "slide_text_clipping": [],
+    "supplier_positive_share": "56.71%",
+    "streamlit_total": "2499145830.48"
+  },
+  "tests": {
+    "python_passed": 150,
+    "frontend_passed": 46
+  },
+  "intentional_normal_case": {
+    "id": 37,
+    "reference": "PIQ-000037",
+    "status": "INVESTIGATING",
+    "version": 2
+  }
+}

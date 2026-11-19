@@ -1,0 +1,89 @@
+{
+  "inspected_on": "2026-10-16",
+  "copied_registry_components": [
+    {
+      "component": "badge",
+      "url": "https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/new-york-v4/ui/badge.tsx",
+      "downloaded_source_sha256": "13a9380dfff853ee730c14a52df49f22aecd31f40f2998d7c1e7ec458b6e1650",
+      "local_file": "apps/web/src/components/ui/badge.tsx"
+    },
+    {
+      "component": "button",
+      "url": "https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/new-york-v4/ui/button.tsx",
+      "downloaded_source_sha256": "79dd6f75f8136394442202d6b8b922fb269eaad0a5dba579397c9d5b41f893bb",
+      "local_file": "apps/web/src/components/ui/button.tsx"
+    },
+    {
+      "component": "card",
+      "url": "https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/new-york-v4/ui/card.tsx",
+      "downloaded_source_sha256": "ef8305b12c3112dab42a4708b41b1ebcc042fa5ab4c20f039da8d45b09ed5059",
+      "local_file": "apps/web/src/components/ui/card.tsx"
+    },
+    {
+      "component": "command",
+      "url": "https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/new-york-v4/ui/command.tsx",
+      "downloaded_source_sha256": "319e9264567dd46f04d705028bc345470663ca5919f31292c4ec43ea5ceb9336",
+      "local_file": "apps/web/src/components/ui/command.tsx"
+    },
+    {
+      "component": "dialog",
+      "url": "https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/new-york-v4/ui/dialog.tsx",
+      "downloaded_source_sha256": "2ade6074e5fad0a4eb171ead44c43d3301a3c83d186d7236fb1fdbea80ee556b",
+      "local_file": "apps/web/src/components/ui/dialog.tsx"
+    },
+    {
+      "component": "sheet",
+      "url": "https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/new-york-v4/ui/sheet.tsx",
+      "downloaded_source_sha256": "ea473d38a26a9b0b879e5a13139899ad45e9782e896b3fa205c7763a6c506876",
+      "local_file": "apps/web/src/components/ui/sheet.tsx"
+    },
+    {
+      "component": "skeleton",
+      "url": "https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/new-york-v4/ui/skeleton.tsx",
+      "downloaded_source_sha256": "f51ce0fcd31e5c31437382e80ea0af94b4fc3d64221d27091d36824546780a43",
+      "local_file": "apps/web/src/components/ui/skeleton.tsx"
+    },
+    {
+      "component": "tabs",
+      "url": "https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/new-york-v4/ui/tabs.tsx",
+      "downloaded_source_sha256": "e1df6e2f95ece373ca909c1d54b8ba8cf4c47dd425c1784bbb9a01c38dd0936b",
+      "local_file": "apps/web/src/components/ui/tabs.tsx"
+    },
+    {
+      "component": "tooltip",
+      "url": "https://raw.githubusercontent.com/shadcn-ui/ui/main/apps/v4/registry/new-york-v4/ui/tooltip.tsx",
+      "downloaded_source_sha256": "611e4305879b2773eafe76bf3c5caa69d8e47367fd97887a71634a27828f4433",
+      "local_file": "apps/web/src/components/ui/tooltip.tsx"
+    }
+  ],
+  "dependencies": {
+    "radix-ui": {
+      "version": "1.8.1",
+      "license": "MIT"
+    },
+    "cmdk": {
+      "version": "1.1.1",
+      "license": "MIT"
+    },
+    "sonner": {
+      "version": "2.0.8",
+      "license": "MIT"
+    },
+    "class-variance-authority": {
+      "version": "0.7.1",
+      "license": "Apache-2.0"
+    },
+    "clsx": {
+      "version": "2.1.1",
+      "license": "MIT"
+    },
+    "tailwind-merge": {
+      "version": "3.7.0",
+      "license": "MIT"
+    },
+    "tw-animate-css": {
+      "version": "1.4.0",
+      "license": "MIT"
+    }
+  }
+}

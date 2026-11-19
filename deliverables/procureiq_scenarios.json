@@ -1,0 +1,237 @@
+{
+  "model_version": "same_period_decimal_v1",
+  "currency": "GBP",
+  "baseline": {
+    "kind": "hmrc",
+    "amount_gbp": "721458382.18",
+    "start_month": "2025-04-01",
+    "end_month": "2026-03-01",
+    "period_label": "12-month same-period scenario (Apr 2025–Mar 2026); not annualized",
+    "scope": "PROJECT Mandays Supp",
+    "filters": {
+      "start_month": null,
+      "end_month": null,
+      "expense_type": "PROJECT Mandays Supp",
+      "expense_area": null,
+      "entity": null,
+      "supplier_id": null
+    },
+    "source_fingerprint": "5886525e03a6b21493a7bd70ba3c8ec510ea8f8e01a753cc66850a0406192061",
+    "population": {
+      "positive_gbp": "721458382.18",
+      "credit_gbp": "5012458.96",
+      "net_gbp": "716445923.22",
+      "record_count": 6497,
+      "unparsed_amounts": 0
+    },
+    "covered_months": 12,
+    "source_basis": {
+      "filters": {
+        "start_month": null,
+        "end_month": null,
+        "expense_type": "PROJECT Mandays Supp",
+        "expense_area": null,
+        "entity": null,
+        "supplier_id": null
+      },
+      "date_basis": "reporting_month",
+      "money_basis": "GBP gross VAT-inclusive disclosed payments",
+      "identity_basis": "case_whitespace_v1 resolved supplier keys",
+      "source_scope": "All active source versions; filters select lines within these files",
+      "sources": [
+        {
+          "file_id": 1,
+          "reporting_month": "2025-04-01",
+          "filename": "HMRC_spending_over_25000_for_April_2025.csv",
+          "sha256": "9a347c44045234bb50fd0d47e06b46282885bebf1999f6c2ebfa6b5cd7ac76a6",
+          "original_row_count": 1116
+        },
+        {
+          "file_id": 2,
+          "reporting_month": "2025-05-01",
+          "filename": "HMRC_spending_over_25000_for_May_2025.csv",
+          "sha256": "133ff92510814eacee8ad76799b2cd3ed19819815a5be580e822db3d9c260734",
+          "original_row_count": 946
+        },
+        {
+          "file_id": 3,
+          "reporting_month": "2025-06-01",
+          "filename": "HMRC_spending_over_25000_for_June_2025.csv",
+          "sha256": "c3183a8333861dbb25dd9869790290008505e2ffeb37e34233109ca8fab40e8a",
+          "original_row_count": 962
+        },
+        {
+          "file_id": 4,
+          "reporting_month": "2025-07-01",
+          "filename": "HMRC_spending_over_25000_for_July_2025.csv",
+          "sha256": "a9610182f2580754fcc1531bbb72bec4744a7c319c818609094995db85e0c708",
+          "original_row_count": 1013
+        },
+        {
+          "file_id": 5,
+          "reporting_month": "2025-08-01",
+          "filename": "HMRC_spending_over_25000_for_August_2025.csv",
+          "sha256": "425f47c9e6a52a86baeb31800d380e50f604063e071dfcc66bdb616e5ebf7d6d",
+          "original_row_count": 907
+        },
+        {
+          "file_id": 6,
+          "reporting_month": "2025-09-01",
+          "filename": "HMRC_spending_over_25000_for_September_2025.csv",
+          "sha256": "c6627c3052773331fc5915bba39402e743975d614667e5d7ca910a40bda8eac3",
+          "original_row_count": 1057
+        },
+        {
+          "file_id": 7,
+          "reporting_month": "2025-10-01",
+          "filename": "HMRC_spending_over_25000_for_October_2025.csv",
+          "sha256": "5f429977b067e1b93fe54f21aecde29b90a4000a24b92ca5e18366547480c4ad",
+          "original_row_count": 1038
+        },
+        {
+          "file_id": 8,
+          "reporting_month": "2025-11-01",
+          "filename": "HMRC_spending_over_25000_for_November_2025.csv",
+          "sha256": "a042cc5b8d1ff359f604eb67b78d880f5ab63e98f99ae6666b680e499f8e8820",
+          "original_row_count": 1015
+        },
+        {
+          "file_id": 9,
+          "reporting_month": "2025-12-01",
+          "filename": "HMRC_spending_over_25000_for_December_2025.csv",
+          "sha256": "eb6455a59f0cdcef2642ec023f1ba0f16db57c9ae72e24643b9f860c077f233f",
+          "original_row_count": 1197
+        },
+        {
+          "file_id": 10,
+          "reporting_month": "2026-01-01",
+          "filename": "HMRC_spending_over_25000_for_January_2026.csv",
+          "sha256": "92029c82b840b4a5568527882311013122976cb7b1f92d5b7f85f443048e89c9",
+          "original_row_count": 1022
+        },
+        {
+          "file_id": 11,
+          "reporting_month": "2026-02-01",
+          "filename": "HMRC_spending_over_25000_for_February_2026.csv",
+          "sha256": "b0de470001953095ed607305221f94e31cfc402bc6efbc8fc8b0128a5e549a79",
+          "original_row_count": 1117
+        },
+        {
+          "file_id": 12,
+          "reporting_month": "2026-03-01",
+          "filename": "HMRC_spending_over_25000_for_March_2026.csv",
+          "sha256": "335d84229dcb232cb9a691b4f5b6cfb4ef884e02cf0b24362801557c9f1ba16f",
+          "original_row_count": 1583
+        }
+      ],
+      "migrations": [
+        {
+          "name": "001_schema.sql",
+          "sha256": "66a59a45dc1b6a3f516475b0d46211553a5d0c83146978f89b16867dfe1db041"
+        },
+        {
+          "name": "002_verification_views.sql",
+          "sha256": "4a8bd0db22068a6d62bb61249c1f2a234be15d718a1d302be91f08f045ff089d"
+        },
+        {
+          "name": "003_analytical_views.sql",
+          "sha256": "14349303b0ed032b86053d34aba3a853a93cd4428655bd9024ceaaec11a90e51"
+        }
+      ]
+    },
+    "origin": null,
+    "limitation": "Gross VAT-inclusive disclosed positive payments, not complete procurement spend or proven addressable expenditure."
+  },
+  "scenarios": {
+    "Conservative": {
+      "addressable_pct": "20",
+      "adoption_pct": "25",
+      "improvement_pct": "1",
+      "implementation_cost": "100000",
+      "operating_cost": "50000"
+    },
+    "Base": {
+      "addressable_pct": "20",
+      "adoption_pct": "50",
+      "improvement_pct": "2",
+      "implementation_cost": "100000",
+      "operating_cost": "50000"
+    },
+    "Ambitious": {
+      "addressable_pct": "20",
+      "adoption_pct": "75",
+      "improvement_pct": "3",
+      "implementation_cost": "100000",
+      "operating_cost": "50000"
+    }
+  },
+  "outputs": {
+    "Conservative": {
+      "addressable_gbp": "144291676.44",
+      "affected_gbp": "36072919.11",
+      "gross_benefit_gbp": "360729.19",
+      "implementation_cost_gbp": "100000",
+      "operating_cost_gbp": "50000",
+      "total_costs_gbp": "150000.00",
+      "net_benefit_gbp": "210729.19",
+      "roi_pct": "140.4861"
+    },
+    "Base": {
+      "addressable_gbp": "144291676.44",
+      "affected_gbp": "72145838.22",
+      "gross_benefit_gbp": "1442916.76",
+      "implementation_cost_gbp": "100000",
+      "operating_cost_gbp": "50000",
+      "total_costs_gbp": "150000.00",
+      "net_benefit_gbp": "1292916.76",
+      "roi_pct": "861.9445"
+    },
+    "Ambitious": {
+      "addressable_gbp": "144291676.44",
+      "affected_gbp": "108218757.33",
+      "gross_benefit_gbp": "3246562.72",
+      "implementation_cost_gbp": "100000",
+      "operating_cost_gbp": "50000",
+      "total_costs_gbp": "150000.00",
+      "net_benefit_gbp": "3096562.72",
+      "roi_pct": "2064.3751"
+    }
+  },
+  "conventions": {
+    "money": "GBP; nonnegative inputs with at most two decimal places; no implicit VAT adjustment",
+    "rates": "Percent units 0–100 inclusive; at most four decimal places",
+    "arithmetic": "Decimal precision 50; unrounded intermediate products; final money ROUND_HALF_UP to 0.01",
+    "roi": "Rounded net benefit / total costs × 100, rounded HALF_UP to four percentage decimals; unavailable at zero cost",
+    "period": "Same selected reporting period; no annualization or assumed recurrence",
+    "interpretation": "Hypothetical assumptions, not predicted or realized savings; one pool only; never sum overlapping scenarios"
+  },
+  "sensitivity": {
+    "selected": "Base",
+    "adoption_values": [
+      "0",
+      "10",
+      "20",
+      "30",
+      "40",
+      "50",
+      "60",
+      "70",
+      "80",
+      "90",
+      "100"
+    ],
+    "improvement_values": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ]
+  }
+}

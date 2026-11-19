@@ -1,0 +1,62 @@
+[
+  {
+    "reporting_month": "2025-04",
+    "url": "https://assets.publishing.service.gov.uk/media/68306c90e9440506ee953a5a/HMRC_spending_over_25000_for_April_2025.csv",
+    "filename": "HMRC_spending_over_25000_for_April_2025.csv"
+  },
+  {
+    "reporting_month": "2025-05",
+    "url": "https://assets.publishing.service.gov.uk/media/685d6c7a61d68e6ee1a92ac8/HMRC_spending_over_25000_for_May_2025.csv",
+    "filename": "HMRC_spending_over_25000_for_May_2025.csv"
+  },
+  {
+    "reporting_month": "2025-06",
+    "url": "https://assets.publishing.service.gov.uk/media/68838af0c02b468fa1ae0981/HMRC_spending_over_25000_for_June_2025.csv",
+    "filename": "HMRC_spending_over_25000_for_June_2025.csv"
+  },
+  {
+    "reporting_month": "2025-07",
+    "url": "https://assets.publishing.service.gov.uk/media/68ad75af960e2d135b4c8dea/HMRC_spending_over_25000_for_July_2025.csv",
+    "filename": "HMRC_spending_over_25000_for_July_2025.csv"
+  },
+  {
+    "reporting_month": "2025-08",
+    "url": "https://assets.publishing.service.gov.uk/media/68d692d54e830dd22fa1ceda/HMRC_spending_over_25000_for_August_2025.csv",
+    "filename": "HMRC_spending_over_25000_for_August_2025.csv"
+  },
+  {
+    "reporting_month": "2025-09",
+    "url": "https://assets.publishing.service.gov.uk/media/6900c0c184b816d72cb9aa70/HMRC_spending_over_25000_for_September_2025.csv",
+    "filename": "HMRC_spending_over_25000_for_September_2025.csv"
+  },
+  {
+    "reporting_month": "2025-10",
+    "url": "https://assets.publishing.service.gov.uk/media/692357fcb303fcb3352e538f/HMRC_spending_over_25000_for_October_2025.csv",
+    "filename": "HMRC_spending_over_25000_for_October_2025.csv"
+  },
+  {
+    "reporting_month": "2025-11",
+    "url": "https://assets.publishing.service.gov.uk/media/694a90b52f02611393508a3e/HMRC_spending_over_25000_for_November_2025.csv",
+    "filename": "HMRC_spending_over_25000_for_November_2025.csv"
+  },
+  {
+    "reporting_month": "2025-12",
+    "url": "https://assets.publishing.service.gov.uk/media/697bb11bf8f4a746d9572f63/HMRC_spending_over_25000_for_December_2025.csv",
+    "filename": "HMRC_spending_over_25000_for_December_2025.csv"
+  },
+  {
+    "reporting_month": "2026-01",
+    "url": "https://assets.publishing.service.gov.uk/media/699f1e39532c9ad91ebbccea/HMRC_spending_over_25000_for_January_2026.csv",
+    "filename": "HMRC_spending_over_25000_for_January_2026.csv"
+  },
+  {
+    "reporting_month": "2026-02",
+    "url": "https://assets.publishing.service.gov.uk/media/69bd391713101e9908704999/HMRC_spending_over_25000_for_February_2026.csv",
+    "filename": "HMRC_spending_over_25000_for_February_2026.csv"
+  },
+  {
+    "reporting_month": "2026-03",
+    "url": "https://assets.publishing.service.gov.uk/media/69ef774508ecdb5c6f34aff4/HMRC_spending_over_25000_for_March_2026.csv",
+    "filename": "HMRC_spending_over_25000_for_March_2026.csv"
+  }
+]

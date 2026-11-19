@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "filters": {
+    "start_month": "2025-07-01",
+    "end_month": "2025-08-01",
+    "expense_type": null,
+    "expense_area": "CDIO - Core",
+    "entity": null,
+    "supplier_id": null
+  },
+  "record_count": 711,
+  "positive_gbp": "146434867.50",
+  "credit_gbp": "1623391.22",
+  "net_gbp": "144811476.28",
+  "checks": [
+    "independent Decimal line totals",
+    "category/area/entity reconciliation",
+    "supplier ranks and shares",
+    "Pareto crossing",
+    "HHI and top-one/top-three",
+    "unknown mapping denominators",
+    "calendar month trends",
+    "supplier monthly reconciliation"
+  ]
+}

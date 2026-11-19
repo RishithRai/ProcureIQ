@@ -1,0 +1,39 @@
+{
+  "scenario_base_net": "1292916.76",
+  "workbook_sheets": [
+    "Model Inputs",
+    "Scenario Comparison",
+    "Sensitivity Analysis",
+    "Methodology & Limitations"
+  ],
+  "slides": 5,
+  "charts": 2,
+  "case_note_attribution_verified": true,
+  "artifacts": [
+    {
+      "path": "deliverables/workflow_scenario.json",
+      "bytes": 8022,
+      "sha256": "7dd34717e8a56a8c9c2bafd9faab001c51468e37d1b4c3e85900fd94edc9fadc"
+    },
+    {
+      "path": "deliverables/workflow_scenario.xlsx",
+      "bytes": 15269,
+      "sha256": "18c278fb220c53cd3dcd3baa2b2343f4006d656394c4af0a32b45170113d3b64"
+    },
+    {
+      "path": "deliverables/workflow_executive.pptx",
+      "bytes": 60191,
+      "sha256": "7d8101cf62239bb4a9ea7f85a78559fc170cf11661b1b12aa1f5df9791d03d49"
+    },
+    {
+      "path": "deliverables/workflow_evidence.json",
+      "bytes": 2089962,
+      "sha256": "a76400108c59f764f20a1976b712301c67797a6a237a8befbd712340127d4c1e"
+    },
+    {
+      "path": "deliverables/workflow_case_report.pptx",
+      "bytes": 61077,
+      "sha256": "22eff345a2ec9a9372b536272ac217350953f65e098719e4fab1cf0b763caff5"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "created": true,
+  "case": {
+    "case_id": 3,
+    "case_reference": "PIQ-000003",
+    "title": "[LOCAL DEMO] Stage 2 acceptance \u2014 Supplier dependency review: Physical Hosting and Infrastructure",
+    "objective": "Application-generated local React acceptance demonstration. Inspect frozen evidence and navigation only; no commercial finding is asserted.",
+    "opportunity_id": "opp_0286a5a0a1eb2d09e04fb7a0",
+    "opportunity_type": "supplier_concentration",
+    "original_score": "88.1661709000",
+    "rule_version": "opportunity_rules_v1",
+    "configuration_identity": "f8f67540ebbdd4b991157df5bb3e6c4b08106bc53feae9b4db67e2a7407a60dc",
+    "reporting_filters": {
+      "entity": null,
+      "end_month": null,
+      "start_month": null,
+      "supplier_id": null,
+      "expense_area": null,
+      "expense_type": null
+    },
+    "source_fingerprint": "5886525e03a6b21493a7bd70ba3c8ec510ea8f8e01a753cc66850a0406192061",
+    "review_basis_key": "f49f22f098ea46a44c5f10708f6bf8e6fdda0393ed66d59b7779bdcf2fb4fddd",
+    "status": "OPEN",
+    "row_version": 1,
+    "primary_count": 268,
+    "contextual_count": 0,
+    "created_at": "2026-10-16T02:41:31.862674+05:30",
+    "updated_at": "2026-10-16T02:41:31.862674+05:30",
+    "reviewed_at": null,
+    "closed_at": null,
+    "disposition": null,
+    "closure_explanation": null,
+    "basis_matches_current_source": true,
+    "review_snapshot": {
+      "basis": {
+        "filters": {
+          "entity": null,
+          "end_month": null,
+          "start_month": null,
+          "supplier_id": null,
+          "expense_area": null,
+          "expense_type": null
+        },
+        "sources": [
+          {
+            "sha256": "9a347c44045234bb50fd0d47e06b46282885bebf1999f6c2ebfa6b5cd7ac76a6",
+            "file_id": 1,
+            "filename": "HMRC_spending_over_25000_for_April_2025.csv",
+            "reporting_month": "2025-04-01",
+            "original_row_count": 1116
+          },
+          {
+            "sha256": "133ff92510814eacee8ad76799b2cd3ed19819815a5be580e822db3d9c260734",
+            "file_id": 2,
+            "filename": "HMRC_spending_over_25000_for_May_2025.csv",
+            "reporting_month": "2025-05-01",
+            "original_row_count": 946
+          },
+          {
+            "sha256": "c3183a8333861dbb25dd9869790290008505e2ffeb37e34233109ca8fab40e8a",
+            "file_id": 3,
+            "filename": "HMRC_spending_over_25000_for_June_2025.csv",
+            "reporting_month": "2025-06-01",
+            "original_row_count": 962
+          },
+          {
+            "sha256": "a9610182f2580754fcc1531bbb72bec4744a7c319c818609094995db85e0c708",
+            "file_id": 4,
+            "filename": "HMRC_spending_over_25000_for_July_2025.csv",
+            "reporting_month": "2025-07-01",
+            "original_row_count": 1013
+          },
+          {
+            "sha256": "425f47c9e6a52a86baeb31800d380e50f604063e071dfcc66bdb616e5ebf7d6d",
+            "file_id": 5,
+            "filename": "HMRC_spending_over_25000_for_August_2025.csv",
+            "reporting_month": "2025-08-01",
+            "original_row_count": 907
+          },
+          {
+            "sha256": "c6627c3052773331fc5915bba39402e743975d614667e5d7ca910a40bda8eac3",
+            "file_id": 6,
+            "filename": "HMRC_spending_over_25000_for_September_2025.csv",
+            "reporting_month": "2025-09-01",
+            "original_row_count": 1057
+          },
+          {
+            "sha256": "5f429977b067e1b93fe54f21aecde29b90a4000a24b92ca5e18366547480c4ad",
+            "file_id": 7,
+            "filename": "HMRC_spending_over_25000_for_October_2025.csv",
+            "reporting_month": "2025-10-01",
+            "original_row_count": 1038
+          },
+          {
+            "sha256": "a042cc5b8d1ff359f604eb67b78d880f5ab63e98f99ae6666b680e499f8e8820",
+            "file_id": 8,
+            "filename": "HMRC_spending_over_25000_for_November_2025.csv",
+            "reporting_month": "2025-11-01",
+            "original_row_count": 1015
+          },
+          {
+            "sha256": "eb6455a59f0cdcef2642ec023f1ba0f16db57c9ae72e24643b9f860c077f233f",
+            "file_id": 9,
+            "filename": "HMRC_spending_over_25000_for_December_2025.csv",
+            "reporting_month": "2025-12-01",
+            "original_row_count": 1197
+          },
+          {
+            "sha256": "92029c82b840b4a5568527882311013122976cb7b1f92d5b7f85f443048e89c9",
+            "file_id": 10,
+            "filename": "HMRC_spending_over_25000_for_January_2026.csv",
+            "reporting_month": "2026-01-01",
+            "original_row_count": 1022
+          },
+          {
+            "sha256": "b0de470001953095ed607305221f94e31cfc402bc6efbc8fc8b0128a5e549a79",
+            "file_id": 11,
+            "filename": "HMRC_spending_over_25000_for_February_2026.csv",
+            "reporting_month": "2026-02-01",
+            "original_row_count": 1117
+          },
+          {
+            "sha256": "335d84229dcb232cb9a691b4f5b6cfb4ef884e02cf0b24362801557c9f1ba16f",
+            "file_id": 12,
+            "filename": "HMRC_spending_over_25000_for_March_2026.csv",
+            "reporting_month": "2026-03-01",
+            "original_row_count": 1583
+          }
+        ],
+        "date_basis": "reporting_month",
+        "migrations": [
+          {
+            "name": "001_schema.sql",
+            "sha256": "66a59a45dc1b6a3f516475b0d46211553a5d0c83146978f89b16867dfe1db041"
+          },
+          {
+            "name": "002_verification_views.sql",
+            "sha256": "4a8bd0db22068a6d62bb61249c1f2a234be15d718a1d302be91f08f045ff089d"
+          },
+          {
+            "name": "003_analytical_views.sql",
+            "sha256": "14349303b0ed032b86053d34aba3a853a93cd4428655bd9024ceaaec11a90e51"
+          }
+        ],
+        "money_basis": "GBP gross VAT-inclusive disclosed payments",
+        "source_scope": "All active source versions; filters select lines within these files",
+        "identity_basis": "case_whitespace_v1 resolved supplier keys"
+      },
+      "scope": {
+        "expense_type": "Physical Hosting and Infrastructure"
+      },
+      "title": "Supplier dependency review: Physical Hosting and Infrastructure",
+      "caveats": [
+        "A single disclosed supplier may be appropriate for a specialized requirement or existing contract.",
+        "These are disclosed gross payments, not addressable spend or savings.",
+        "Opportunities can overlap; do not add their exposures or interpret exposure as savings."
+      ],
+      "metrics": {
+        "hhi": "10000.0000000000000000",
+        "net_gbp": "73702602.00",
+        "credit_gbp": "0",
+        "group_value": "Physical Hosting and Infrastructure",
+        "top_one_pct": "100.0000000000000000",
+        "positive_gbp": "73702602.00",
+        "record_count": 268,
+        "top_suppliers": [
+          {
+            "supplier_id": 67,
+            "positive_gbp": "73702602.00",
+            "canonical_name": "fujitsu services ltd",
+            "share_resolved_pct": "100.0000000000000000"
+          }
+        ],
+        "top_three_pct": "100.0000000000000000",
+        "supplier_count": 1,
+        "materiality_pct": "2.9491116965289002",
+        "source_coverage": "1",
+        "suppliers_to_80": 1,
+        "unparsed_amounts": 0,
+        "expense_area_count": 1,
+        "suppliers_to_80_pct": "100.0000000000000000",
+        "mapping_coverage_pct": "100.0000000000000000",
+        "resolved_positive_gbp": "73702602.00",
+        "positive_expense_areas": 1,
+        "positive_supplier_count": 1,
+        "unresolved_positive_gbp": "0",
+        "positive_activity_months": 12
+      },
+      "scoring": {
+        "components": {
+          "signal": "1",
+          "evidence": "1",
+          "materiality": "0.73702602"
+        },
+        "explanation": "100 \u00d7 (materiality_weight \u00d7 materiality + signal_weight \u00d7 signal + evidence_weight \u00d7 evidence)",
+        "priority_score": "88.1661709000",
+        "signal_formula": "(HHI/10000 + top_one_pct/100 + top_three_pct/100) / 3",
+        "weighted_points": {
+          "signal": "35.00",
+          "evidence": "20.00",
+          "materiality": "33.1661709000"
+        },
+        "evidence_formula": "source_month_coverage \u00d7 valid_row_fraction \u00d7 positive_active_months/selected_calendar_months \u00d7 positive_value_mapping_coverage",
+        "materiality_formula": "min(positive_exposure_gbp / materiality_reference_gbp, 1)",
+        "materiality_reference_gbp": "100000000"
+      },
+      "rule_version": "opportunity_rules_v1",
+      "affected_areas": [
+        "CDIO - Core"
+      ],
+      "opportunity_id": "opp_0286a5a0a1eb2d09e04fb7a0",
+      "evidence_summary": "Observed \u00a373,702,602.00 positive payments across 12 months; HHI 10000.00, 1 positive suppliers and 1 positive purchasing areas.",
+      "opportunity_type": "supplier_concentration",
+      "affected_suppliers": [
+        {
+          "supplier_id": 67,
+          "normalized_key": "fujitsu services ltd"
+        }
+      ],
+      "confidence_meaning": "Rule-based completeness/traceability label, not probability of inefficiency or benefit.",
+      "evidence_confidence": "stronger_evidence",
+      "exposure_definition": "All positive payments in the selected category; credits and all supporting source rows are retained.",
+      "positive_exposure_gbp": "73702602.00",
+      "business_interpretation": "Assess dependency and sourcing arrangements; concentration alone does not establish inefficient procurement.",
+      "next_investigation_step": "Review contract scope, duration, renewal rights, continuity plans and feasible supplier alternatives with the category owner."
+    },
+    "configuration": {
+      "min_mapping": "0.95",
+      "month_share": "0.35",
+      "spike_ratio": "2",
+      "credit_ratio": "0.20",
+      "mad_multiple": "6",
+      "max_per_type": 10,
+      "signal_weight": "0.35",
+      "history_months": 6,
+      "evidence_weight": "0.20",
+      "payment_min_gbp": "1000000",
+      "quality_min_gbp": "25000",
+      "category_min_gbp": "5000000",
+      "concentration_hhi": "2500",
+      "min_active_months": 6,
+      "materiality_weight": "0.45",
+      "fragmentation_areas": 3,
+      "min_source_coverage": "0.90",
+      "payment_change_ratio": "0.50",
+      "concentration_top_one": "0.50",
+      "fragmentation_max_hhi": "2500",
+      "history_active_months": 4,
+      "concentration_top_three": "0.80",
+      "fragmentation_suppliers": 10,
+      "quality_min_missing_rows": 3,
+      "materiality_reference_gbp": "100000000",
+      "fragmentation_max_top_three": "0.80"
+    }
+  }
+}

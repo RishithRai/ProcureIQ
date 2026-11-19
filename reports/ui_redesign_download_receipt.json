@@ -1,0 +1,28 @@
+{
+  "scenario_base_net_gbp": "1292916.76",
+  "workbook_sheets": [
+    "Model Inputs",
+    "Scenario Comparison",
+    "Sensitivity Analysis",
+    "Methodology & Limitations"
+  ],
+  "presentation_slides": 5,
+  "artifacts": {
+    "redesign_scenario.json": {
+      "bytes": 8022,
+      "sha256": "7dd34717e8a56a8c9c2bafd9faab001c51468e37d1b4c3e85900fd94edc9fadc"
+    },
+    "redesign_scenario.xlsx": {
+      "bytes": 15270,
+      "sha256": "3badf3dd771c79e7dfd9a042e959d30ac928a613c21d20a006137be1d6fda7af"
+    },
+    "redesign_executive.pptx": {
+      "bytes": 60188,
+      "sha256": "c6fbc737694e963f67a414f10dfeed0a5c053905fe3d4c6180618d10b00a08f9"
+    },
+    "redesign_evidence.json": {
+      "bytes": 2089880,
+      "sha256": "e68a28e45e42c748e7b7eb436d1d43a6baa7a58cbf1a7fdde8c0e2a6ad511590"
+    }
+  }
+}

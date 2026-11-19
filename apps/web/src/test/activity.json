@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "event_id": 1,
+      "case_id": 1,
+      "event_type": "CASE_CREATED",
+      "occurred_at": "2026-10-16T02:03:43.155405+05:30",
+      "actor": "local_application",
+      "previous_status": null,
+      "new_status": "OPEN",
+      "reason": null,
+      "details": {
+        "origin": "flagged_exported_review",
+        "row_version": 1,
+        "review_basis_key": "a35ca74803e9a7057e9bee385cf7bd87cff9a08df03b98d53cf8bf59aed5bf37"
+      }
+    },
+    {
+      "event_id": 2,
+      "case_id": 1,
+      "event_type": "STATUS_CHANGED",
+      "occurred_at": "2026-10-16T02:03:44.595050+05:30",
+      "actor": "local_application",
+      "previous_status": "OPEN",
+      "new_status": "INVESTIGATING",
+      "reason": "Local demonstration: verifying the persisted investigation workflow.",
+      "details": {
+        "disposition": null,
+        "row_version": 2,
+        "previous_disposition": null
+      }
+    }
+  ],
+  "total": 2,
+  "offset": 0,
+  "limit": 50
+}
